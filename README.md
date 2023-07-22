@@ -6,7 +6,7 @@
 
 - [Bookstore](#bookstore)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Javascript-Capstone-Group-Project\] ](#-bookstore-)
+- [📖 \[bookstore\] ](#-bookstore-)
   - [Tech Stack ](#tech-stack-)
   - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
@@ -23,9 +23,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 [MathMagicin] <a name="about-project"></a>
+# 📖 [Bookstore] <a name="about-project"></a>
 
-**[MathMagician]** is a project that aims to build a dynamic bookstore website using the full features of React and Redux
+**[Bookstore]** is a project that aims to build a dynamic bookstore website using the full features of React and Redux
 
 <br>
 

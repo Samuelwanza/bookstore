@@ -1,7 +1,6 @@
-import React from "react";
-
-const NewBook = () => {
-  return (
+/* eslint-disable linebreak-style */
+import React from 'react';
+const NewBook = () => 
     <div>
       <h2>Add New Book</h2>
       <form>
@@ -9,10 +8,7 @@ const NewBook = () => {
         <select>
           <option>Action</option>
         </select>
-        <button>ADD BOOK</button>
+        <button type='submit'>ADD BOOK</button>
       </form>
-    </div>
-  );
-};
-
+    </div>;
 export default NewBook;

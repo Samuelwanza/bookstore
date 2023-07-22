@@ -1,5 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
-import style from "../styles/Layout.module.css";
+/* eslint-disable linebreak-style */
+import style from '../styles/Layout.module.css';
 
 const Layout = () => (
   <div className={style.container}>
