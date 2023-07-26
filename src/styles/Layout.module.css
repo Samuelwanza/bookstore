@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 90vw;
+}
+
+.link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: blue;
+  padding: 5px;
+}
+
+.navdecoration {
+  border-right: 3px solid darkgray;
+}
