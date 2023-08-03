@@ -9,7 +9,6 @@ const initialState = {
 
 const getBooks = createAsyncThunk('books/get', async () => {
   const response = await fetchData();
-  console.log('samuels');
   return response;
 });
 
@@ -38,7 +37,6 @@ const booksSlice = createSlice({
     builder.addCase(getBooks.fulfilled, (state, action) => {
       state.status = 'success';
       state.books = action.payload;
-      console.log(action);
     });
     builder.addCase(getBooks.rejected, (state) => {
       state.status = 'failed';
