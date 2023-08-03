@@ -1,11 +1,12 @@
 /* eslint-disable linebreak-style */
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidV4 } from 'uuid';
-import { addBook } from '../redux/books/booksSlice';
+import { postBooks } from '../redux/books/booksSlice';
 
 const NewBook = () => {
   const dispatch = useDispatch();
+  const status = useSelector((state) => state.books.status);
   const [formValue, setFormValue] = useState({
     title: '',
     author: '',
@@ -20,7 +21,8 @@ const NewBook = () => {
     e.preventDefault();
     const formValueWithid = { item_id: id, ...formValue };
 
-    dispatch(addBook(formValueWithid));
+    dispatch(postBooks(formValueWithid));
+    console.log(status);
 
     setFormValue({ title: '', author: '', category: '' });
   };
@@ -45,7 +47,7 @@ const NewBook = () => {
         />
         <input
           type="text"
-          placeholder="author"
+          placeholder="category"
           name="category"
           value={formValue.category}
           onChange={handleInput}
