@@ -1,0 +1,8 @@
+
+.booklist {
+  display: flex;
+  flex-direction: column;
+  background: #f5f6fa;
+  align-items: center;
+  width: 100%;
+}

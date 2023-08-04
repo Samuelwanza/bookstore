@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { v4 as uuidV4 } from 'uuid';
 import { postBooks } from '../redux/books/booksSlice';
+import style from '../styles/Newbook.module.css';
 
 const NewBook = () => {
   const dispatch = useDispatch();
@@ -28,9 +29,9 @@ const NewBook = () => {
   };
 
   return (
-    <div>
+    <div className={style.newbook}>
       <h2>Add New Book</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={style.form}>
         <input
           type="text"
           placeholder="Book Title"
