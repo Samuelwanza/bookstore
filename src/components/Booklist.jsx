@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getBooks } from '../redux/books/booksSlice';
 import BookItem from './BookItem';
+import style from '../styles/Booklist.module.css';
 
 const Booklist = () => {
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ const Booklist = () => {
     });
   }, [dispatch]);
   return (
-    <div>
+    <div className={style.booklist}>
       {list && list.map((item) => <BookItem key={item.id} bookitem={item} />)}
     </div>
   );

@@ -5,5 +5,5 @@ const appId = axios
   .post(`${appUrl}/apps/`)
   .then((res) => res.data)
   .then((data) => data)
-  .catch(() => console.log);
+  .catch((error) => error);
 export default appId;

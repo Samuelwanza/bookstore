@@ -1,6 +1,4 @@
+
 .App {
-  width: 100vw;
-  display: flex;
-  gap: 10px;
-  background: white;
+  background: #f5f6fa;
 }

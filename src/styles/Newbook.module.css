@@ -1,0 +1,52 @@
+.newbook {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f5f6fa;
+  padding-left: 5vw;
+}
+
+.newbook > h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+  background: white;
+  background: #f5f6fa;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  background: #f5f6fa;
+}
+
+.form > input {
+  width: 23vw;
+  padding: 10px;
+  outline: none;
+  border: #e8e8e8 1px solid;
+}
+
+.form > button {
+  background: #0290ff;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 200px;
+}
+
+.separator {
+  margin-top: 20px;
+  width: 90vw;
+  background: white;
+  height: 1px;
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  justify-self: flex-start;
+}
