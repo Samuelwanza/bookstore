@@ -30,6 +30,7 @@ const NewBook = () => {
 
   return (
     <div className={style.newbook}>
+      <div className={style.separator} />
       <h2>Add New Book</h2>
       <form onSubmit={handleSubmit} className={style.form}>
         <input
