@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
-  background: white;
-}
-
 .bookContainer {
   padding: 20px;
   margin-top: 10px;
@@ -13,6 +9,7 @@
   display: flex;
   align-items: center;
   background: white;
+  justify-content: space-between;
 }
 
 .bookdetails > h4 {
@@ -76,6 +73,7 @@
   color: #4386bf;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
   margin-right: 5px;
+  background: white;
 }
 
 .buttons > button :hover {
